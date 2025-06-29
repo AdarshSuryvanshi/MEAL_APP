@@ -1,4 +1,4 @@
-# Flutter Meal App
+#  Meal App
 
 This Flutter-based Meal App allows users to explore a variety of meals categorized by cuisine type. Users can view detailed meal information, apply dietary filters such as gluten-free or vegan, and manage a list of their favorite meals. The app is designed with clean architecture and state management using the Provider package.
 
@@ -20,24 +20,6 @@ The Meal App serves as a recipe exploration tool that helps users:
 - Tab-based navigation between categories and favorites
 - Drawer-based navigation to filter screen
 - State management using Provider
-
-## Project Structure
-lib/
-├── screens/                # All major UI screens
-│   ├── home_screen.dart    # Main dashboard (Tabs: Categories/Favorites)
-│   ├── category_screen.dart# GridView of meals by category
-│   ├── meal_detail_screen.dart # Ingredients/steps + favorite toggle
-│   └── filters_screen.dart # Dietary preference settings
-├── widgets/                # Reusable components
-│   ├── meal_card.dart      # Compact meal preview card
-│   └── section_header.dart # Styled section titles
-├── providers/              # State management
-│   └── meals_provider.dart # Handles favorites/filters
-├── models/                 # Data structures
-│   ├── meal.dart           # Meal model (id, title, ingredients...)
-│   └── category.dart       # Category model (id, title, color)
-└── data/                   # Mock data
-    └── dummy_data.dart     # Hardcoded meal database
 
 
 ## How It Works
